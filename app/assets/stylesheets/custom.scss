@@ -55,6 +55,10 @@ p {
 }
 
 // ヘッダー
+.navbar {
+  background: url(background.png) center / cover;
+}
+
 .navbar ul{
   margin-top: 30px;
   margin-bottom: 30px;
@@ -70,18 +74,10 @@ p {
   }
 }
 
-.header_text_top {
-  font-size: 60px;
-  color: rgb(3, 37, 37);
-  padding-top: 25px;
-  margin-left: 180px;
-}
-
-.header_text_bottom {
-  font-size: 20px;
-  color: rgb(3, 37, 37);
-  padding-top: 20px;
-  margin-left: 200px;
+li  {
+  font-size: 15px;
+  color: rgb(36, 36, 84);
+  text-align: center;
 }
 
 // フッター
